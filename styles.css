@@ -6,5 +6,31 @@ p{
 	color: orange;
     text-decoration: underline;
 	text-align: center;
+	font-size: 2vw;
 	
+}
+img{
+	max-width: 100%;
+}
+
+.sisalto{
+	overflow: auto;
+	
+}
+
+.vasen{
+	float: left;
+	width: 50%;
+	
+}
+
+.oikea{
+	float: left;
+	width: 50%;
+}
+
+@media only screen and (max-width: 1440px){
+	.vasen, .oikea{
+		width: 100%;
+	}	
 }
